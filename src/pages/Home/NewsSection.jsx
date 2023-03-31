@@ -42,6 +42,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 21px;
 color: #000000;
+margin-bottom: 4px;
 }
 .news{
     width:90%;
