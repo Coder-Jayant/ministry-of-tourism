@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import Typesoftravel from "./pages/typesOfTravel/typesoftravel";
 import Media from "./pages/media/media"
 import About_Us from "./pages/AboutUs/About_Us";
+import PlanYourJourny from "./pages/PlanYourJourny/PlanYourJourny";
 import './App.css'
 import {
   BrowserRouter ,
@@ -13,6 +14,9 @@ import {
 function App() {
   return (
     <BrowserRouter>
+      <Routes>
+        <Route path="ok" element={<PlanYourJourny />}></Route>
+      </Routes>
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>
